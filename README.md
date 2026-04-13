@@ -32,15 +32,7 @@ The system is currently configured to recognize the following commands (in Portu
 "Abrir" (Open)  Moves the servo to 180°  b'A'
 "Fechar" (Close)  Returns the servo to 0°  b'F'
 "Parar" (Stop)  Closes connection and exits  exit()
-
-🗂️ Project Structure
-Plaintext
-├── Hand/
-│   ├── main.py              # Python brain (Speech-to-Serial)
-│   ├── .gitignore           # Ignored files (pycache, pio, etc.)
-│   └── src/
-│       └── main.cpp         # Arduino firmware (C++)
-└── README.md                # Project documentation
+And others.
 
 🤝 Contributing
 Feel free to fork this project, report issues, or submit pull requests to improve the recognition accuracy or add new movement patterns.
